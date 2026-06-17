@@ -1,0 +1,21 @@
+# Core deep-learning stack
+# DINOv3 backbones require a recent PyTorch (>=2.5 recommended).
+torch>=2.5.1
+torchvision>=0.20.1
+
+# Numerics / data
+numpy>=1.26
+pandas>=2.0
+scipy>=1.11
+Pillow>=10.0
+tqdm>=4.66
+
+# Evaluation (HD95). Optional: if missing, HD95 is reported as NaN.
+medpy>=0.4.0
+
+# Parameter-efficient fine-tuning of the backbone (LoRA). Optional:
+# if missing, the backbone is simply frozen in Stage 2.
+peft>=0.11.0
+
+# Experiment tracking. Set WANDB_MODE=offline to run without an account.
+wandb>=0.16.0

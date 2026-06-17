@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# Experiment outputs
+work_dirs/
+wandb/
+*.log
+*.csv
+
+# Model weights / data (do not commit)
+pretrained/
+data/
+*.pth
+*.pt
+
+# Local clone of the DINOv3 repo
+dinov3/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
