@@ -1,4 +1,4 @@
-# DINOMed3D: A DINOv3-Driven Two-Stage Framework for 3D Medical Image Segmentation
+# DINO-Med3D: Bridging Dimension and Domain Gaps in Volumetric Segmentation via Progressive Adaptation
 
 **English** | [简体中文](#dinomed3d中文说明)
 
@@ -102,7 +102,7 @@ DINOMed3D builds on the official **DINOv3** ViT backbones, loaded locally via `t
 
    Point `repo_dir` to it (default `./dinov3`, or set `DINOV3_REPO_DIR`).
 
-2. **Download the DINOv3 ImageNet-pretrained checkpoints** and place them in a single folder
+2. **Download the DINOv3 pretrained checkpoints** and place them in a single folder
    (default `./pretrained`, or set `DINOV3_WEIGHTS_DIR`):
 
    | Model size | Backbone        | Expected filename                                   | embed_dim |
@@ -274,7 +274,7 @@ Checkpoints store the model weights together with `norm_stats`, `num_classes`, a
 ---
 ---
 
-# DINOMed3D（中文说明）
+# DINOMed3D
 
 [English](#dinomed3d-a-dinov3-driven-two-stage-framework-for-3d-medical-image-segmentation) | **简体中文**
 
@@ -375,7 +375,7 @@ DINOMed3D 基于官方 **DINOv3** ViT 主干，通过本地 `torch.hub` 加载�
 
    将 `repo_dir` 指向该目录（默认 `./dinov3`，或设置环境变量 `DINOV3_REPO_DIR`）。
 
-2. **下载 DINOv3 在 ImageNet 上的预训练权重**，并放入同一文件夹（默认 `./pretrained`，或设置环境变量
+2. **下载 DINOv3 的预训练权重**，并放入同一文件夹（默认 `./pretrained`，或设置环境变量
    `DINOV3_WEIGHTS_DIR`）：
 
    | 模型规模 | 主干            | 预期文件名                                          | embed_dim |
